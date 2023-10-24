@@ -7,3 +7,9 @@ To create a local branch to work on, use
 
 git branch <branch-name> origin/<branch-name>
 That'll create a new local branch using the remote's branch as the starting point.
+
+
+sudo apt-get install python-dev python3-dev
+sudo apt-get install libmysqlclient-dev
+pip install pymysql
+pip install mysqlclient
