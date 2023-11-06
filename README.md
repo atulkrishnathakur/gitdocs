@@ -32,3 +32,8 @@ sudo apt-get install python-dev python3-dev
 sudo apt-get install libmysqlclient-dev
 pip install pymysql
 pip install mysqlclient
+
+# config vim editor
+```
+atul@atul-Lenovo-G570:~$ git config --global core.editor vim
+```
