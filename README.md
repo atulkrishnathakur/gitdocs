@@ -37,3 +37,41 @@ pip install mysqlclient
 ```
 atul@atul-Lenovo-G570:~$ git config --global core.editor vim
 ```
+# Create a new branch
+1. First of all check branch already created or not. * show before main it means you are in the main branch.
+   ```
+   (venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch
+   * main
+  v1-user-management-app
+  v2-country-app
+
+```
+2. If branch is not created then create new branch
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch v3-state-app
+
+```
+3. Again check breach create or not
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch
+* main
+  v1-user-management-app
+  v2-country-app
+  v3-state-app
+
+```
+4. Now go in newly created branch
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git checkout v3-state-app
+Switched to branch 'v3-state-app'
+
+```
+5. Again check brach. * show before v3-state-app brach it means you are in the v3-state-branch
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch
+  main
+  v1-user-management-app
+  v2-country-app
+* v3-state-app
+
+```
