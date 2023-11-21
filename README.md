@@ -62,3 +62,11 @@ atul@atul-Lenovo-G570:~$ git config --global core.editor vim
 Switched to branch 'v3-state-app'
 
 ```
+5. Again check brach. * show before v3-state-app brach it means you are in the v3-state-branch
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch
+  main
+  v1-user-management-app
+  v2-country-app
+* v3-state-app
+```
