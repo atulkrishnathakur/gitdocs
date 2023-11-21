@@ -44,3 +44,7 @@ atul@atul-Lenovo-G570:~$ git config --global core.editor vim
      v1-user-management-app
      v2-country-app
    ```
+2. If branch is not created then create new branch
+   ```
+   (venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch v3-state-app
+   ```
