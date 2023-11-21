@@ -70,3 +70,25 @@ Switched to branch 'v3-state-app'
   v2-country-app
 * v3-state-app
 ```
+# Push newly created branch
+
+Command: $ git push origin <newly-created-branch-name>
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git push origin v3-state-app
+Username for 'https://github.com': ******@*****.com
+Password for 'https://*******@*****.com@github.com': 
+Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (33/33), 6.13 KiB | 1.53 MiB/s, done.
+Total 33 (delta 6), reused 4 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 4 local objects.
+remote: 
+remote: Create a pull request for 'v3-state-app' on GitHub by visiting:
+remote:      https://github.com/atulkrishnathakur/derp/pull/new/v3-state-app
+remote: 
+To https://github.com/atulkrishnathakur/derp.git
+ * [new branch]      v3-state-app -> v3-state-app
+
+```
