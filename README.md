@@ -49,12 +49,11 @@ atul@atul-Lenovo-G570:~$ git config --global core.editor vim
    (venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch v3-state-app
    ```
 3. Again check branch create or not
-   ```
-   (venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git branch
 * main
   v1-user-management-app
   v2-country-app
   v3-state-app
-
-   ```
+```
       
