@@ -56,4 +56,9 @@ atul@atul-Lenovo-G570:~$ git config --global core.editor vim
   v2-country-app
   v3-state-app
 ```
-      
+4. Now go in newly created branch
+```
+(venv) atul@atul-Lenovo-G570:~/mydjangofirst/derp$ git checkout v3-state-app
+Switched to branch 'v3-state-app'
+
+```
