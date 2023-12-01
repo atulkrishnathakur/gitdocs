@@ -92,3 +92,29 @@ To https://github.com/atulkrishnathakur/derp.git
  * [new branch]      v3-state-app -> v3-state-app
 
 ```
+
+# restore staged file/directory to modified
+command to restore file in modified: $ git restore --staged <filename>
+```
+$ git restore --staged .gitignore
+
+```
+command to restore all files of a directory in modified : $ git restore --staged <directoryname>
+```
+$ git restore --staged stateapp/__pycache__/
+```
+
+# restore modified file/directory to untracked
+command to restore file in untracked : $ git restore <filename>
+
+```
+$ git restore .gitignore
+
+```
+command to restore all files of a directory in untracked: $ git restore <directoryname>
+```
+$ git restore stateapp/__pycache__/
+```
+
+
+
