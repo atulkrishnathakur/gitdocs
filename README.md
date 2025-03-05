@@ -124,4 +124,13 @@ $ git log --oneline
 - press `q` for exit
 
 
-
+# revert on a specific commit
+- If you already pushed code by mistak but you want to revert on a specific commit then run below command
+- Firs go in your branch
+  ```
+  git revert <commit-hash>
+  ```
+  example
+  ```
+    $ git revert 7b00c36
+  ```
