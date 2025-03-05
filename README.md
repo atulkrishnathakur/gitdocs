@@ -116,5 +116,11 @@ command to restore all files of a directory in untracked: $ git restore <directo
 $ git restore stateapp/__pycache__/
 ```
 
+# how to see history
+- It will show every commit in sigle line
+```
+$ git log --oneline
+```
+
 
 
