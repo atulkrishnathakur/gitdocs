@@ -121,6 +121,7 @@ $ git restore stateapp/__pycache__/
 ```
 $ git log --oneline
 ```
+- press `q` for exit
 
 
 
