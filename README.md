@@ -1,3 +1,54 @@
+## git configuration
+- Reference: https://education.github.com/git-cheat-sheet-education.pdf
+1. initializ the git
+ 
+```
+atul@atul-Lenovo-G570:~/softbook$ git init
+```
+2. set the user name in git
+```
+atul@atul-Lenovo-G570:~/softbook$ git config user.name "abcd"
+```
+ 
+3. check the user name in git
+ 
+```
+atul@atul-Lenovo-G570:~/softbook$ git config user.name
+```
+ 
+4. set the user email in git
+ 
+```
+atul@atul-Lenovo-G570:~/softbook$ git config user.email "****@***.com"
+```
+5. check the user email in git
+ 
+```
+atul@atul-Lenovo-G570:~/softbook$ git config user.email
+```
+
+6. set the remote url in git
+```
+atul@atul-Lenovo-G570:~/softbook$ git remote add origin https://github.com/atulkrishnathakur/softbook.git
+```
+7. check the remote urls
+```
+atul@atul-Lenovo-G570:~/softbook$ git remote -v
+```
+8. check status in git
+```
+atul@atul-Lenovo-G570:~/softbook$ git status
+```
+9. create a file `.gitignore` in softbook directory and write code in this file. This file is used to ignore some files and directories.
+```
+__pycache__
+alembic/__pycache__
+alembic/version/__pycache__
+database/__pycache__
+database/model/__pycache__
+env
+```
+
 # After Git clone from GitHub, I do not see my branch
 By default, git clone creates only one branch: the currently checked out one, generally master. However, it does create remote tracking branches for all other branches in the remote. Think of these as local copies of the remote's branches, which can be updated by fetching. They're not real local branches, as they're intended only as pointers to where the remote's branches are, not for you to work on.
 
